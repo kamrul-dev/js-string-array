@@ -6,6 +6,9 @@
 
 
 function friendsName(friendList) {
+    if(Array.isArray(friendList) == false){
+        return 'Please enter an array'
+    }
     let list = [];
     for (const friend of friendList) {
         const searching = 'md';
