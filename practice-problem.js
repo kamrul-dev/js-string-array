@@ -9,3 +9,4 @@ for(const food of favoriteFood){
         console.log(food);
     }
 }
+
